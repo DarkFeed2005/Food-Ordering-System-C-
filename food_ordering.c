@@ -53,3 +53,21 @@ void mainmenu()
   printf("\t      Please Enter Your Choice: ");
   scanf("%c", &choice);
   
+    system("cls");
+
+    {
+		if (toupper(choice) == 'A')
+              breakFast();
+        else if (toupper(choice) == 'B')
+              lunch();
+        else if (toupper(choice) == 'C')
+              dinner();
+        else if (toupper(choice) == 'D')
+              exit(0);
+        else if (toupper(choice) != 'A', 'B' , 'C' , 'D')
+            {
+               mainmenu();
+            }
+	}
+
+}
