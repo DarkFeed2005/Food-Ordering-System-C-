@@ -5,3 +5,9 @@
 #include <windows.h>
 #include <string.h>
 #include<time.h>
+
+void breakFast();
+void lunch();
+void dinner();
+void mainmenu();
+void exit();
