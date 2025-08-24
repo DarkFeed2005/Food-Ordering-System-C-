@@ -11,3 +11,24 @@ void lunch();
 void dinner();
 void mainmenu();
 void exit();
+
+COORD coord = {0,0};
+
+void gotoxy(int x,int y)
+{
+    coord.X = x;
+    coord.Y = y;
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE),coord);
+}
+
+int num;
+float price;
+float total;
+char choice;
+int again;
+
+void main()
+{
+	mainmenu();
+}
+
