@@ -32,3 +32,24 @@ void main()
 	mainmenu();
 }
 
+void mainmenu()
+{
+	char choice = ' ' ;
+  printf("              ==============================          \n");
+  printf("                   Food Ordering System          \n ");
+  printf("             ==============================          \n\n");
+
+  printf("\t\tEnter [A] -> Breakfast Menu\n");
+  printf("\t\tEnter [B] -> Lunch Menu\n");
+  printf("\t\tEnter [C] -> Dinner Menu\n");
+  printf("\t\tEnter [D] -> Exit\n\n");
+  
+  printf("              ==============================          \n");
+  time_t t;   // not a primitive datatype
+  time(&t);
+  printf("\t\t %s", ctime(&t));
+  printf("              ==============================          \n\n");
+  
+  printf("\t      Please Enter Your Choice: ");
+  scanf("%c", &choice);
+  
