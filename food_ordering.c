@@ -36,7 +36,7 @@ void mainmenu()
 {
 	char choice = ' ' ;
   printf("              ==============================          \n");
-  printf("                   Food Ordering System @Kalana         \n ");
+  printf("                   Food Ordering System @KpolitX        \n ");
   printf("             ==============================          \n\n");
 
   printf("\t\tEnter [A] -> Breakfast Menu\n");
